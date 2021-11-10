@@ -5,8 +5,12 @@ Authors@R: person('Michael', 'Taylor', email = 'mtaylor@semo.edu', role = c('cre
 Description: Geographic range size exploration for Biogeography.
 License: MIT + file LICENSE
 Imports: 
+    attempt,
     config (>= 0.3.1),
+    DT,
+    glue,
     golem (>= 0.3.1),
+    htmltools,
     shiny (>= 1.6.0)
 Encoding: UTF-8
 LazyData: true
