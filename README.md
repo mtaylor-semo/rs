@@ -8,7 +8,7 @@
 
 <!-- badges: end -->
 
-The goal of `rs` is to create a shiny app that students use to explore geographic range size in a variety of freshwater taxa at the scales of the U.S., regional within the U.S. and individual states. Range size is estimated by counting the number of watersheds occupied by each species.
+The goal of `rs` is to create a [Shiny](https://shiny.rstudio.com) app that students use to explore geographic range size in a variety of freshwater taxa at the scales of the U.S., regional within the U.S. and individual states. Range size is estimated by counting the number of watersheds occupied by each species.
 
 ## Installation
 
