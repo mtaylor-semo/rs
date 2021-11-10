@@ -25,7 +25,7 @@ golem::fill_desc(
   author_first_name = "Michael", # Your First Name
   author_last_name = "Taylor", # Your Last Name
   author_email = "mtaylor@semo.edu", # Your Email
-  repo_url = "https://github.com/mtaylor-semo/rs/" # The URL of the GitHub Repo (optional) 
+  repo_url = "https://github.com/mtaylor-semo/rs" # The URL of the GitHub Repo (optional) 
 )     
 
 ## Set {golem} options ----
@@ -34,7 +34,8 @@ golem::set_golem_options()
 ## Create Common Files ----
 ## See ?usethis for more information
 usethis::use_mit_license( "Michael S. Taylor" )  # You can set another license here
-usethis::use_readme_rmd( open = FALSE )
+usethis::use_readme_md( open = FALSE )
+#usethis::use_readme_rmd( open = FALSE )
 usethis::use_code_of_conduct(contact = "mtaylor@semo.edu")
 usethis::use_lifecycle_badge( "Experimental" )
 usethis::use_news_md( open = FALSE )
